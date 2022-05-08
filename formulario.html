@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Praxis - Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="formulario">
+
+    <main class="main-w">
+
+        <div class="main-ww">
+
+            <div class="main-www">
+                <div class="perfil">
+                    <div class="perfil__info active">
+                        <div class="perfil__nombre">
+                            <p class="nombre">Java Praxis</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="navegacion">
+                    <div class="nav">
+                        <ul class="nav-lista">
+                            <li><a class="active" href="formulario.html">Formulario</a></li>
+                            <li><a href="color.html">Color</a></li>
+                            <li><a href="calculadora.html">Calculadora</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contenido">
+                <h1 class="contenido__titulo">Escríbenos!</h1>
+
+                <form id="formulario">
+                    <div class="contenido__input">
+                        <div class="input-item">
+                            <label>Nombre completo</label>
+                            <input id="nombre" type="text">
+                            <p class="errorNombre" style="color:fuchsia;font-style:oblique;"></p>
+                        </div>
+                        <div class="input-item">
+                            <label>Asunto</label>
+                            <input id="asunto" type="text">
+                            <p class="errorAsunto" style="color:fuchsia;font-style: oblique;"></p>
+                        </div>
+                        <div class="input-item">
+                            <label>Mensaje</label>
+                            <textarea id="mensaje"></textarea>
+                            <p class="errorMensaje" style="color:fuchsia;font-style: oblique;"></p>
+                        </div>
+                        <div class="input-item">
+                            <button id="button" type="submit">Enviar mensaje</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="mensajes" class="mensajes"></div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="assets/js/formulario.js"></script>
+
+</body>
+
+</html>
