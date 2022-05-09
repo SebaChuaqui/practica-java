@@ -61,12 +61,7 @@ main {
 }
 
 .main-www {
-    background-color: red;
-    width: 350px;
-}
-
-.main-www {
-    background-color: red;
+    background-color: #F1C40F;
     width: 350px;
 }
 
@@ -84,7 +79,7 @@ main {
 }
 
 .perfil {
-    background-color: green;
+    background-color: #58D68D ;
     height: 10vh;
     display: flex;
     align-items: center;
