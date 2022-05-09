@@ -168,7 +168,7 @@ main {
 
 .input-item input,
 .input-item textarea {
-    color: white;
+    color: blue;
     padding: 10px 15px;
     border: 1.5px solid black;
     border-radius: 4px;
@@ -188,6 +188,62 @@ main {
     cursor: pointer;
     transition: background .2s ease-in-out;
 }
+
+.input-item button:hover,
+.input-item button:focus {
+    background-color: yellowgreen;
+}
+
+.contenido__output {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+
+}
+
+.output-item {
+    background-color: transparent;
+    border-radius: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 15px;
+}
+
+.output-item .colorBoton {
+    border: 0;
+    border-radius: inherit;
+    cursor: pointer;
+    height: 100px;
+}
+
+.output-item__res {
+    background-color: rosybrown;
+    border-radius: black;
+    flex: 1;
+    padding: 20px 5px;
+}
+
+.output-item__res ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+
+}
+
+.output-item__res ul li {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
 
 
 
