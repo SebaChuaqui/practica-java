@@ -5,7 +5,7 @@
 }
 
 body {
-    color: blue;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     margin: 0;
@@ -51,7 +51,7 @@ main {
 }
 
 .main-ww {
-    background-color: yellow;
+    background-color: blue;
     backdrop-filter: blur(20px);
     display: flex;
     height: 100%;
@@ -74,7 +74,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 1.25rem;
+    padding-inline:  20px;
 }
 
 .perfil__info {
@@ -93,3 +93,42 @@ main {
 .perfil__nombre span {
     font-size: 14px;
 }
+
+.navegacion {
+    height: auto;
+    padding: 30px 20px;
+}
+
+.nav-lista {
+    counter-reset: nav;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-lista a {
+    color: #ffff;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    transition: color .1s ease-in-out;
+}
+
+.nav-lista a::before {
+    margin-right: 5px;
+}
+
+.nav-lista a:hover,
+.nav-lista a:focus {
+    color: black;
+}
+
+.nav-lista a.active {
+    color: black;
+}
+
+
+
