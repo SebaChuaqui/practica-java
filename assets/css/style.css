@@ -1,0 +1,45 @@
+.nombre{
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+}
+
+.nav-lista {  
+	list-style:none;
+	margin-left: 38%;
+	padding:0;
+}
+.nav-lista li {
+	display: inline-block;
+    margin: 2px;
+	padding:0;
+    
+
+}
+.nav-lista li a {
+	display: block; 
+	width: 100px;
+	padding: 4px 0;
+	text-decoration:none;
+	text-align: center;
+	font-size: 11px;
+	color:#FFFFFF;
+	background-color:#000000;
+}
+
+.contenido__titulo{
+    margin-left: 45%;
+	padding-bottom: 0;
+    color: blue;
+}
+
+.contenido__input{
+    text-align: center;
+}
+
+.input-item{
+    display: block;
+}
+
+
+
