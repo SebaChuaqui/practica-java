@@ -68,6 +68,21 @@ main {
     width: 350px;
 }
 
+.contenido {
+    background-color: rosybrown;
+    flex: 1;
+    padding: 50px;
+    position: relative;
+}
+
+.contenido__titulo {
+    color: white;
+    font-size: 24px;
+    margin-block-end: 10px
+}
+
+
+
 .perfil {
     background-color: green;
     height: 10vh;
