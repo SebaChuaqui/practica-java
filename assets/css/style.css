@@ -5,6 +5,7 @@
 }
 
 body {
+    background-image: url();
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -42,6 +43,7 @@ main {
 }
 
 .main-w {
+    background-image: url(../img/matrix.png);
     background-size: cover;
     background-position: center center;
     height: 100vh;
